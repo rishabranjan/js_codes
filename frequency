@@ -15,3 +15,7 @@ for (var i = 0; i < set2.length; i++) {
 for (var i = 0; i < set2.length; i++) {
   console.log(`${set2[i]} - ${count[i]}`);
 }
+
+
+Approch -> first of all I converted the list in set such that all duplicates get deleted 
+and then I iterated over both the loops to find the duplicates.
